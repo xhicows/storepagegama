@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(143, 143, 143);
+}
+
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0 ;
+
+}
+
+.caixa{
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 150px;
+    right: 35px;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    margin: 0.2%;
+    margin-top: 30px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+.produtos li:hover{
+    border-color: antiquewhite ;
+}
+
+.produtos li:active{
+    border-color: brown;
+}
+
+.produtos li:hover h2 {
+    font-size: 26px;
+}
+
+.produtos h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+.preco{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+footer{
+    padding-top: 5px;
+    background: url("rodape.jpg");
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.listafinal{
+    font-size: 25px;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    padding: 10px 10px;
+    margin: 0.2%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 30px;
+}
+
+.listafinal li{
+    text-decoration: brown;
+}
